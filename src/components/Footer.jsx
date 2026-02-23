@@ -11,20 +11,20 @@ export default function Footer() {
             </div>
             <div className="flex justify-center space-x-4 mt-2 text-gray-600">
                 <span>Faculty Coordinators:</span>
-                <span className="hover:text-red-500">Dr. Fatima </span>
-                <span className="hover:text-red-500">Dr. Hehe</span>
+                <span className="hover:text-red-500">Dr. Humaira Fatima  </span>
+                {/* <span className="hover:text-red-500">Dr. Hehe</span> */}
             </div>
             <div className="flex justify-center space-x-4 mt-2 text-gray-600">
                 <span>Student Coordinators:</span>
-                <span className="hover:text-sky-500">Piyush: 5142458XXX</span>
-                <span className="hover:text-pink-500">Hehehe: 88893XXX11</span>
-                <span className="hover:text-sky-500">Rakshit: 9XXXX544336</span>
+                <span className="hover:text-pink-500">Yuva Bharti Bansal: 89689 78226</span>
+                <span className="hover:text-sky-500">Darshan V: 73054 10264</span>
+                <span className="hover:text-sky-500">Yash Goyal: 78178 33974</span>
             </div>
             <div className="flex justify-center space-x-6 mt-4">
-                <a href="https://www.instagram.com/mozillafirefox.vitbhopal/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-pink-500">
+                <a href="https://www.instagram.com/thematrixclub_vitb/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-pink-500">
                     <FaInstagram size={24} />
                 </a>
-                <a
+                {/* <a
                     href="https://x.com/MFCVITB"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -38,8 +38,8 @@ export default function Footer() {
                     >
                         <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" />
                     </svg>
-                </a>
-                <a href="https://www.linkedin.com/company/mozilla-firefox-club-vit-bhopal/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-700">
+                </a> */}
+                <a href="https://www.linkedin.com/company/matrixclub-vitbhopal/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-700">
                     <FaLinkedin size={24} />
                 </a>
             </div>

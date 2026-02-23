@@ -52,7 +52,7 @@ export const events = [
       date:"28 Feb 2026",
       content:`Redesign an intentionally messy and confusing user interface. Teams will have 15 minutes to transform it into a clean and user-friendly wireframe. You must not only redesign it, but also explain the logic behind your UX decisions. Design is not just how it looks — it’s how it works. Present your wireframe and walk the judges through your thought process, highlighting usability improvements, accessibility features, and creative solutions. Show us how you turn chaos into clarity!`,
       // direction: "left",
-      superhero: "/favicon.ico",
+      superhero: "/Games/UIDisaster.png",
       scale:0.6,
       position:164
     },
@@ -61,7 +61,7 @@ export const events = [
       date:"28 Feb 2026",
       content:`Test your speed and accuracy in a 45-second typing sprint. The participant with the highest correct word count wins. Stay focused. Every second counts. Compete head-to-head with others in a fast-paced challenge that rewards both quick thinking and precision. Will your fingers fly across the keyboard, or will nerves get the best of you? Only the fastest and most accurate will claim victory!`,
       // direction: "right",
-      superhero: "/favicon.ico",
+      superhero: "/Games/FastTyping.png",
       scale:0.6,
       position:150
     },
@@ -88,7 +88,7 @@ export const events = [
         date:"28 Feb 2026",
         content:`A viral tech or non-tech meme will be shown. Teams must explain its meaning, context, and hidden humor. It’s not just funny — it’s about understanding the idea behind it. Dive deep into the world of memes, decode the references, and impress the judges with your wit and insight. This round rewards those who can see beyond the surface and appreciate the layers of humor and culture!`,
         // direction: "left",
-        superhero: "/favicon.ico",
+        superhero: "/Games/ExplainMeme.png",
         scale:0.8,
         position:200
       },
@@ -97,7 +97,7 @@ export const events = [
         date:"28 Feb 2026",
         content:`A modified version of a well-known brand logo will appear on screen. Colors or shapes may be changed. Identify the original brand within 15 seconds. Sharp eyes win. This challenge is all about visual memory and brand awareness. Can you spot the subtle differences and recall the original logo before time runs out? Only the most observant will succeed!`,
         // direction: "left",
-        superhero: "/favicon.ico",
+        superhero: "/Games/LogoRemix.png",
         scale:0.8,
         position:200
       },
@@ -106,7 +106,7 @@ export const events = [
         date:"28 Feb 2026",
         content:`Step up and aim for the target. Players throw darts to score maximum points. Focus. Aim. Hit. Precision decides the winner. Test your hand-eye coordination and nerves under pressure as you compete for the highest score. Every throw counts, and only the steadiest hands will emerge victorious!`,
         // direction: "left",
-        superhero: "/favicon.ico",
+        superhero: "/Games/ArcaseDart.png",
         scale:0.8,
         position:200
       },
@@ -115,7 +115,7 @@ export const events = [
         date:"28 Feb 2026",
         content:`Participants must land the bottle upright within 10 attempts. Control and consistency matter more than luck. One perfect flip can change the game. This fun and challenging round will test your patience, skill, and determination. Will you master the art of the bottle flip and claim bragging rights?`,
         // direction: "left",
-        superhero: "/favicon.ico",
+          superhero: "/Games/BottleFlip.png",
         scale:0.8,
         position:200
       },
@@ -124,7 +124,7 @@ export const events = [
         date:"28 Feb 2026",
         content:`You get only one attempt to build a perfect cup pyramid. Balance, coordination, and steady hands are key. One chance. Make it count. This round is all about focus and finesse. Can you build the tallest, most stable pyramid in a single try? The pressure is on!`,
         // direction: "left",
-        superhero: "/favicon.ico",
+        superhero: "/Games/CupPyramid.png",
         scale:0.8,
         position:200
       },
@@ -160,7 +160,7 @@ export const events = [
   export const navItems = [
     { label: "Home", href: "home", offset:-230 },
     { label: "About", href: "upcoming-events", offset:-50 },
-    { label: "Highlights", href: "rules", offset:-60 },
+    // { label: "Highlights", href: "rules", offset:-60 },
     { label: "Contact us", href: "cta", offset:-255 },
     { label: "Sponsors ", href: "sponsors", offset:-30 },
   ];

@@ -12,7 +12,7 @@
 
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
-              url('/background.jpg') repeat-y center top;
+              url('/Games/back.gif') repeat-y center top;
   background-size: 100% auto; /* Adjust the width to cover and height to scale */
   background-attachment: fixed; /* Optional: makes the background stay in place */
   height: 100vh; /* Optional: defines the height of the body */

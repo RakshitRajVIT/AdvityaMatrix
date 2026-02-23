@@ -5,15 +5,13 @@ import { motion } from 'framer-motion';
 import { Link } from "react-scroll";
 
 const superheroes = [
-  { src: '/superheroes/1.jfif', alt: 'Ironman' }, 
-  { src: '/superheroes/2.avif', alt: 'Captain America' }, 
-  // { src: '/superheroes/blackwidow.png', alt: 'Black Widow' },
-  // { src: '/superheroes/captainmarvel.png', alt: 'Captain Marvel' },
-  // { src: '/superheroes/thor.png', alt: 'Thor' },
-  // { src: '/superheroes/hulk.png', alt: 'Hulk' },
-  // { src: '/superheroes/deadpool.png', alt: 'Deadpool' },
-  // { src: '/superheroes/scarletwitch.png', alt: 'Scarlet Witch' },
-  // { src: '/superheroes/spiderman.png', alt: 'Spiderman' },
+  { src: '/Games/ArcaseDart.png', alt: 'Ironman' }, 
+  { src: '/Games/BottleFlip.png', alt: 'Ironman' }, 
+  { src: '/Games/CupPyramid.png', alt: 'Ironman' }, 
+  { src: '/Games/ExplainMeme.png', alt: 'Ironman' }, 
+  { src: '/Games/FastTyping.png', alt: 'Ironman' }, 
+  { src: '/Games/LogoRemix.png', alt: 'Ironman' }, 
+  { src: '/Games/UIDisaster.png', alt: 'Ironman' }, 
 ];
 
 const Hero = () => {
@@ -62,14 +60,14 @@ const Hero = () => {
           animate={{ x: 0, opacity: 1 }}
           className="text-left text-3xl md:text-4xl font-extralight"
         >
-          some text heheheh <br /> 
-          hehehe
+          Matrix: The Multimedia Club <br /> 
+          Presents
           <br/>
-          heheheh so cool
+          Matrix Mela
         </motion.h4>
         <p className="mt-1 text-secondary font-semibold text-4xl md:text-5xl lg:text-7xl text-left">
           <Typewriter
-            words={['games name','rakshit raj', 'spideybhaiya', 'Yuva Di: The OG President']}
+            words={['Bottle Flip','Fast Typing', 'Explain Meme', 'Logo Remix']}
             loop={Infinity}
             cursor
             cursorStyle="|"
@@ -84,12 +82,13 @@ const Hero = () => {
           animate={{ x: 0, opacity: 1 }}
           className="text-left mt-1 text-3xl md:text-4xl font-extralight"
         >
-          awaits!
+          Play Exciting Games
         </motion.h4>
         <div className="flex flex-wrap justify-start mt-10 md:mb-5 z-10">
           <a
             id="button"
-            href="/"
+            href="https://matrix-event-registation.vercel.app/"
+            target='_blank'
             className="bg-gradient-to-r from-red-600 to-red-700 py-3 px-4 mx-2 md:my-2 rounded-md text-lg flex items-center justify-center"
           >
             Register Now

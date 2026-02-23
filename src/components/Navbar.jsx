@@ -41,7 +41,8 @@ const Navbar = () => {
                 View Schedule
             </Link>
             <a
-              href="/"
+              href="https://matrix-event-registation.vercel.app/"
+              target="_blank"
               id="navbutton"
               className="bg-gradient-to-r from-red-600 to-red-700 py-2 px-3 rounded-md"
             >
